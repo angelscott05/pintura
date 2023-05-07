@@ -1,0 +1,92 @@
+	margin: auto;
+	padding: 0;
+	font-family: fantasy;
+}
+/* CUERPO DE LA PAGINA*/
+body{
+	background-color: #F3DFA9; 
+
+}
+/*Cabecera*/
+header{
+	background-color: #5985D0;
+}
+header h1{
+	text-align: center;
+	color: navy;
+	padding: o.5em;
+	font-size: 1.5em;
+}
+header h2{
+	text-align: center;
+	color: #91B8FC;
+	padding: 0.5em;
+	font-size: 1.2em;
+}
+/*nave*/
+nav{
+	background-color:#F3DFA9;
+	min-height: 2 em;
+}
+nav p{
+	display: inline;
+}
+nav a:link, nav a:visited{
+	text-decoration:none ;
+	color: #F3DFA9;
+	background-color: #3E5EC3;
+	margin: o.3 em;
+}
+nav a:hover, nav a:active{
+	text-decoration: none;
+	color: #9bf5ff;
+	background-color: #543683;
+	margin: 0.3em;
+}
+/*section principal*/
+section{
+	width:75%;
+	background-color: #284191;
+	float:left;
+}
+section h1
+	{text-align: center;
+	 padding:0.5em;
+	 color: #6993DE;
+	 font-size: 1.4em;	
+}
+section h2
+	{text-align: center;
+	 padding:0.5em;
+	 color: #A8C4FF;
+	 font-size: 1.2em;	
+}
+section h3
+	{text-align: left;
+	 padding:0.3em 0.3em;
+	 color: #97B7F9;
+	 font-size: 1 em;	
+}
+/*Articulos*/
+
+section article{
+	margin: 0.5em 3.0em;
+	padding: 0.5em 2em;
+	background-color: white;
+	border: 3px #99B8FC;
+}
+section article p{
+	text-align: justify;
+}
+/*pie de pagina:  footer*/
+footer {clear:both; background-color: #99C8FC;}
+footer h1{text-align: center; font-size: 1.4em;color: navy;padding: 0.7em;}
+footer h2{text-align: center;font-size: 1em;padding: 0.4em;}
+footer a {text-decoration: none; color: #F3DFA9;}
+
+/*propaganda: aside*/
+aside{width: 25%; float:  left;}
+#anuncio1{margin: 20px; padding: 10px;border: 2px solid blue; background-color: white;}
+#anuncio1 h1{font-size: 1.1em;text-align: left;padding: 0.2en 0em;}
+#anuncio1 h2{font-size: 1.5em; text-align: center;padding: 0.5em 0em;}
+#anuncio1 p{font-size: 0.9em;padding: 0.2em 1em;}

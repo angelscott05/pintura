@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=decice-widht, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>formulario</title>
+	<body>
+
+</head>
+<body>
+	
+	<!---DATOS PERSONALES--->
+	<center>
+		<form action="archivo.php" method="get">
+			<h1 style="color: #E6FFEE;">Qué es lo que mas te gusta de la pintura</h1>
+			<br>
+			<h2>ingresa los datos para iniciar sesion</h2>
+			<br><br>
+		<p>Introduce nombre del usuario:<input type="text"name="nombre" size="40" placeholder="ingresa tu usuario" required></p><br>
+		<p>Correo:<input type="text"name="nombre" size="40" placeholder="ingresa tu correo" required></p><br>
+		  <form>
+        	<p style="color: #E6FFEE;">Contraseña:</p>
+        	<p><input type="password" name="contraseña"></p><br>
+        
+        <p><input type="date" name="fecha"></p><br>
+        
+		<p> sexo:
+			<input type="radio" name="hm" value="h" required> Hombre
+		    <input type="radio" name="hm" value="m" required> Mujer
+		</p>
+        <p>
+        	<input type="submit" name="Enviar">
+        	<input type="reset" name="Borrar">
+        </p>
+        <form>
+        	----------------------------------------------------------------------
+<form><h1>Responde las siguentes opciones</h1>
+	<p><u>Veamos cuanto es tu gusto por el arte</u></p><br>
+		<form>Indique su nivel de gusto por el arte(del 1 al 10, de 3 en 3):
+                <p>
+                	<input type="range" name="rango" min="1" max="10" step="3"></p>
+                <p>¿Cuales son las tecnicas de pintura que mas le gustan?:<input type="text" name="opinion"size"50" required></p>
+                <p><b>¿Que pintor se te hace mejor?</b></p>
+                	<input type="radio" name="r1" value="l1" required> Pablo Picasso
+                	<input type="radio" name="r2" value="l2" required> vincent Van gogh
+                	<input type="radio" name="r3" value="l3" required> Amadeo Modigliani 
+                	<input type="radio" name="r4" value="l4" required> Miguel Angel <br>
+
+                	¿Que siginifica para ti el arte?<textarea name="texto" rows="4" cols="40"placeholder=""></textarea>
+                	<p><input type="submit" name="enviar" value="Enviar"></p>
+
+</body>
+</html>
